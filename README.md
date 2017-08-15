@@ -6,7 +6,9 @@
 using namespace std;
 
 int main(int argc, char** argv)
+
 {
+
         string test_str1 = "我的一个URL编码解码测试程序";
        	cout << "test_str1=" << UrlCoder::UrlEncode(test_str1) <<endl;
  
@@ -14,4 +16,5 @@ int main(int argc, char** argv)
        	cout << "test_str2=" << UrlCoder::UrlDecode(test_str2) <<endl;
 
     	return 0;
+	
 }
