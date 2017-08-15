@@ -1,4 +1,5 @@
 # UrlCoder
+一个C++版本的URL编码解码程序
 -----------------------------------
 #include "UrlCoder.h"
 
@@ -10,7 +11,7 @@ int main(int argc, char** argv)
 
 {
 
-        string test_str1 = "我的一个URL编码解码测试程序";
+      string test_str1 = "我的一个URL编码解码测试程序";
 	
        	cout << "test_str1=" << UrlCoder::UrlEncode(test_str1) <<endl;
  
